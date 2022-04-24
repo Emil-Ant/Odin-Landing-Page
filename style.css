@@ -24,17 +24,35 @@ li{
 }
 
 .Hero { 
+    display: flex; 
     background-color: #1F2937;  
     padding: 40px; 
     font-size: 18px; 
-    color: #E5E7EB
+    color: #E5E7EB;
+    flex-direction: row;
+    border: 2px solid red; 
+    justify-content: space-around; 
 }
 
 .Hero h4 { 
     font-size:48px; 
     font-weight: 900; 
-    color: #F9FAF8;
+    color: #F9FAF8; 
+    border: 2px solid red; 
+    margin: 0px; 
 }
+
+.Hero-right {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.Hero-left { 
+    display: flex; 
+    flex-direction: column; 
+}
+
 
 button { 
     display: block; 
@@ -45,4 +63,11 @@ button {
     color: #E5E7EB; 
     font-weight: 900;  
     padding: 7px;
+    justify-content: flex-end;
+    align-items: flex-end; 
+}
+
+#image-placeholder {
+    border: 2px solid red; 
+    flex: 1 1 auto; 
 }
