@@ -37,8 +37,7 @@ li{
 .Hero h4 { 
     font-size:48px; 
     font-weight: 900; 
-    color: #F9FAF8; 
-    border: 2px solid red; 
+    color: #F9FAF8;  
     margin: 0px; 
 }
 
@@ -46,11 +45,17 @@ li{
     display: flex;
     align-items: center; 
     justify-content: center; 
+    background-color: grey; 
+    width: 30%; 
+    text-align: center;
 }
 
 .Hero-left { 
     display: flex; 
     flex-direction: column; 
+    flex-shrink: 2; 
+    flex-wrap: wrap; 
+    width: 30%; 
 }
 
 
@@ -68,6 +73,5 @@ button {
 }
 
 #image-placeholder {
-    border: 2px solid red; 
     flex: 1 1 auto; 
 }
