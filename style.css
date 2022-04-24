@@ -75,3 +75,18 @@ button {
 #image-placeholder {
     flex: 1 1 auto; 
 }
+
+.information { 
+    display: flex; 
+    flex-direction: column; 
+    font-size: 36px; 
+    font-weight: 900;  
+    color: #1F2937; 
+}
+
+.information h3{ 
+    border: 2px solid red; 
+    text-align: center; 
+    margin-top: auto;
+    padding-top: 10px;   
+}
