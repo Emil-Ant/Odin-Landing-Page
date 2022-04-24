@@ -10,6 +10,8 @@ body {
     padding: 50px;
     margin-top: -40px;  
     margin-bottom: -30px; 
+    padding-right: 300px; 
+    padding-left: 190px; 
 }
 
 .RS {
@@ -89,4 +91,18 @@ button {
     text-align: center; 
     margin-top: auto;
     padding-top: 10px;   
+}
+
+.container { 
+    display: flex; 
+    font-size: 18px; 
+    justify-content: space-between; 
+    gap: 50px; 
+}
+
+.square { 
+    border: 2px solid red;
+    padding: 20px; 
+    width: auto;
+    height:60px;
 }
