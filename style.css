@@ -116,8 +116,26 @@ button {
 }
 
 .quote { 
-    margin: 100px;
+    padding: 100px;
     display: flex; 
     justify-content: center; 
     align-items: center;
+    background-color: #E5E7EB; 
+    font-size: 36px; 
+    font-style: italic; 
+    font-weight: lighter;  
+    display: flex; 
+    flex-direction: column;  
+}
+
+.quote p { 
+    width:60%; 
+}
+
+#thor { 
+    position: relative; 
+    left: 500px;
+    font-size: 26px;
+    font-weight: bold; 
+    font-style: normal;
 }
