@@ -139,3 +139,23 @@ button {
     font-weight: bold; 
     font-style: normal;
 }
+
+.call {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: 2px solid red; 
+    padding: 100px; 
+ }
+
+
+ .Inside-call { 
+     display: flex; 
+     flex-direction: column; 
+     padding: 40px; 
+     width: 700px; 
+     margin-left: 50px; 
+     background-color: #3882f6; 
+     color: #F9FAF8; 
+     border-radius: 10px; 
+ }
