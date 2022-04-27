@@ -151,11 +151,21 @@ button {
 
  .Inside-call { 
      display: flex; 
-     flex-direction: column; 
+     flex-direction: row; 
+     justify-content: space-between;
+     align-items: center; 
      padding: 40px; 
      width: 700px; 
-     margin-left: 50px; 
      background-color: #3882f6; 
      color: #F9FAF8; 
-     border-radius: 10px; 
+     border-radius: 10px;
+     padding-left: 140px; 
+     padding-right: 140px; 
  }
+
+
+#button2 { 
+    border: 2.3px solid #F9FAF8;
+    width: 120px; 
+    height: 35px; 
+}   
